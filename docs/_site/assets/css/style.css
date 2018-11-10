@@ -4,8 +4,8 @@
   font-size: 30px;
   margin-right: 75px; }
 
-.link.current {
-  border: 1px grey; }
+.current {
+  border: 4px red; }
 
 p {
   font-size: 20px;
