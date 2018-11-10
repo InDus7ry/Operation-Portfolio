@@ -2,7 +2,7 @@
   color: white;
   text-decoration: none;
   font-size: 30px;
-  margin-left: 75px; }
+  margin-right: 75px; }
 
 .link.current {
   color: green; }
@@ -13,6 +13,9 @@ p {
   margin-right: 100px; }
 
 h1 {
+  padding-left: 75px; }
+
+.navbar {
   text-align: left;
   background: black;
   box-shadow: 0 0 0 10px  black; }
