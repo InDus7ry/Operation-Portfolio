@@ -1,8 +1,8 @@
-- name: Test 3
+- name: Operation Portfolio
   link: /Operation-Portfolio/
-- name: Test2
+- name: Programming I
   link: /Operation-Portfolio/programming.html
-- name: Test1
+- name: Digital Media I
   link: /Operation-Portfolio/digitalMedia.html
 - name: About
   link: /Operation-Portfolio/about.html

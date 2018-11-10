@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Test 1
+title: Digital Media I
 ---
 # Digital Media I
 

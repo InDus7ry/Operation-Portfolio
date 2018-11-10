@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Test 2
+title: Programming I
 ---
 # Programming I
 
