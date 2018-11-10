@@ -1,8 +1,8 @@
 - name: Home
-  link: /
+  link: Operation-Portfolio/
 - name: About
-  link: /about.html
+  link: Operation-Portfolio/about.html
 - name: Programming I
-  link: /programming.html
+  link: Operation-Portfolio/programming.html
 - name: Digital Media I
-  link: /digitalMedia
+  link: Operation-Portfolio/digitalMedia
