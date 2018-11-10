@@ -1,3 +1,3 @@
-## Gabe Wong's:
+# Gabe Wong's:
 ## Operation Portfolio
 
