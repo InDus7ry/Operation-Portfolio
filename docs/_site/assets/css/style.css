@@ -5,7 +5,10 @@
   margin-right: 75px; }
 
 .current {
-  border: 4px red; }
+  color: #86b5ea;
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 75px; }
 
 p {
   font-size: 20px;
