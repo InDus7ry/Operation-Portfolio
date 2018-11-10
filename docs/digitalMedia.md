@@ -4,4 +4,6 @@ title: Digital Media I
 ---
 # Digital Media I
 
-Yay Karl Marx!
+## Frames :
+
+## Portal 2 Scene :
