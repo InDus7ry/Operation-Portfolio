@@ -1,8 +1,17 @@
-.current {
+.link{
+	color: black;
+	text-decoration: none;
+	font-size: 30px;
+	margin-left:75px;
+}
+.link.current{
 	color: green;
 }
-.all {
-	margin-right: 100px;
-	margin-left:100px;
-	margin-top:50px;
+p {
+	margin-top: 50px;
+	margin-left:75px;
+	margin-right:100px;
+}
+h1 {
+	text-align: left;
 }
