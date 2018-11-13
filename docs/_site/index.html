@@ -3,38 +3,114 @@
   <head>
   	<link rel="icon" href="/favicon.png" type="image/x-icon" />
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0>
     <title>Operation Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-  	<h1 class="navbar"><nav>
-  
-    	<a href="/Operation-Portfolio/"  class="link" >
-    	Operation Portfolio
-    	</a>
-  
-    	<a href="/Operation-Portfolio/programming.html"  class="link" >
-    	Programming I
-    	</a>
-  
-    	<a href="/Operation-Portfolio/digitalMedia.html"  class="link" >
-    	Digital Media I
-    	</a>
-  
-    	<a href="/Operation-Portfolio/about.html"  class="link" >
-    	About
-    	</a>
-  
+          <aside class="tag">
+            insert witty tagline insert witty tagline
+          </aside>
+      
+          <aside class="mobile">
+            <figure>
+              <figcaption>
+                Gabe Wong
+              </figcaption>
+            </figure>
+          <img src="assets/images/Menu.svg" id="menu">
+          <nav>
+	<ul>
+	  
+	  	<li>
+	    	<a href="#">
+	    	Operation Portfolio
+	    	</a>
+	    </li>
+	  
+	  	<li>
+	    	<a href="#">
+	    	Programming I
+	    	</a>
+	    </li>
+	  
+	  	<li>
+	    	<a href="#">
+	    	Digital Media I
+	    	</a>
+	    </li>
+	  
+	  	<li>
+	    	<a href="#">
+	    	About
+	    	</a>
+	    </li>
+	  
+  	</ul>
 </nav>
-  </h1>
-  	<p>
-    <h1 id="about-the-portfolio">About the Portfolio</h1>
+          </aside>
 
-<p>Gabe Wong’s portfolio includes his work from Programming I and Digital Media I.</p>
+        <main class="cont">
+            <h1 id="wonderful-title">Wonderful Title</h1>
 
-    </p>
-    <div class="footer">
-    Copyright © 2018 Gabe Wong.
-    </div>
+<p>This is the most wonderful paragraph: filled with the wise words of Donny J Trinket. Who is Jesus? a figment of my imajination? or simply a lame nerd? For what do we live? who is your dadda?</p>
+
+            <a href="#" class="cta">Portfolio</a>
+        </main>
+
+        <aside class="deskNav">
+          <figure>
+              <figcaption>
+                Gabe Wong
+              </figcaption>
+            </figure>
+          <nav>
+	<ul>
+	  
+	  	<li>
+	    	<a href="#">
+	    	Operation Portfolio
+	    	</a>
+	    </li>
+	  
+	  	<li>
+	    	<a href="#">
+	    	Programming I
+	    	</a>
+	    </li>
+	  
+	  	<li>
+	    	<a href="#">
+	    	Digital Media I
+	    	</a>
+	    </li>
+	  
+	  	<li>
+	    	<a href="#">
+	    	About
+	    	</a>
+	    </li>
+	  
+  	</ul>
+</nav>
+        </aside>
+
+  	  <div class="footer">
+          Copyright © 2018 Gabe Wong.
+      </div>
+
+    <script>
+        
+            (function() {
+                var menu = document.querySelector('ul'),
+                    menulink = document.querySelector('img');
+                
+                menulink.addEventListener('click', function(e) {
+                    menu.classList.toggle('active');
+                    e.preventDefault();
+                });
+            })();
+        
+    </script>
   </body>
 </html>
