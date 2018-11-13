@@ -3,6 +3,6 @@ layout: default
 title: Gabe Wong
 ---
 
-# Wonderful Title
+# I Do Things
 
-This is the most wonderful paragraph: filled with the wise words of Donny J Trinket. Who is Jesus? a figment of my imajination? or simply a lame nerd? For what do we live? who is your dadda?
+Take a look around; see what I can do. Dive into my soul, and understand the beast within.
