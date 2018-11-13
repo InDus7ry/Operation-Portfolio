@@ -96,11 +96,18 @@ main {
   background: black;
   padding: 20px; }
 
-@media only screen and (min-width: 768px) {
+.social {
+  display: none; }
+
+@media only screen and (min-width: 600px) {
+  .cta {
+    margin-right: 10em;
+    margin-left: 10em; } }
+@media only screen and (min-width: 1119px) {
   body {
     margin: 0px;
     display: grid;
-    grid-template-columns: 4.2em auto 25vw; }
+    grid-template-columns: 4em auto 25vw; }
 
   h1 {
     font-family: MyriadBold; }
@@ -113,8 +120,9 @@ main {
     box-shadow: none; }
 
   main {
-    padding: 4em;
-    background: white; }
+    padding: 2.2em;
+    background: white;
+    margin-top: 0px; }
 
   .mobile {
     display: none; }
@@ -125,33 +133,67 @@ main {
     font-size: 2.7em;
     writing-mode: vertical-rl;
     box-shadow: none;
-    text-align: center; }
+    text-align: center;
+    padding-right: .15em; }
 
   .footer {
     display: none; }
-
-  ul {
-    display: block;
-    background: #BFBFBF; }
 
   figure {
     Padding: 2em;
     font-size: .9em;
     text-align: center;
-    background: #BFBFBF; }
-
-  li {
-    text-align: right;
-    background-color: #BFBFBF; }
+    background: rgba(255, 255, 255, 0.36); }
 
   nav {
     background: #BFBFBF; }
 
-  a {
-    background-color: #BFBFBF; }
-
   .deskNav {
-    display: block; } }
+    display: block; }
+
+  ul {
+    display: block; }
+
+  ul li a {
+    display: block;
+    background-color: #BFBFBF;
+    text-transform: none;
+    color: black; }
+
+  li {
+    text-align: right;
+    font-size: 1.5em;
+    padding-right: 1.3em;
+    border-bottom: 1px solid black; }
+
+  .social {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 1em; }
+
+  a img {
+    display: block; }
+
+  img {
+    margin: auto;
+    width: 70%;
+    margin-top: 10em; }
+
+  h1 {
+    font-size: 5em;
+    text-align: center;
+    margin-top: 0px; }
+
+  .cta {
+    margin-right: 10em;
+    margin-left: 10em; }
+
+  p {
+    font-size: 2em; }
+
+  h2 {
+    font-size: 3em;
+    font-family: MyriadBold; } }
 @font-face {
   font-family: Roboto Medium;
   src: url(../fonts/Roboto-Medium.ttf); }

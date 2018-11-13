@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Operation Portfolio
+title: Gabe Wong
 ---
 
 # Wonderful Title

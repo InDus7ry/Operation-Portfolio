@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 84.193">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="email" transform="translate(-1713 -879.807)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-1" cx="42" cy="42" r="42" transform="translate(1713 880)"/>
+    <g id="email-2" data-name="email" transform="translate(1712.999 879.807)">
+      <g id="Group_14" data-name="Group 14" transform="translate(0.001)">
+        <path id="Path_7" data-name="Path 7" d="M42,0A42,42,0,1,0,84,42,42,42,0,0,0,42,0Zm0,14.752,24.854,15.5H17.147ZM67.165,55h0a4.5,4.5,0,0,1-4.5,4.5H21.34a4.5,4.5,0,0,1-4.5-4.5V31.237a4.476,4.476,0,0,1,.071-.77L40.657,45.275c.029.018.06.031.09.047l.1.05a2.493,2.493,0,0,0,.517.2c.018.005.036.007.055.011A2.562,2.562,0,0,0,42,45.66h0a2.516,2.516,0,0,0,.586-.074c.018,0,.036-.006.055-.011a2.517,2.517,0,0,0,.517-.2l.1-.05c.03-.017.061-.029.09-.047L67.094,30.467a4.471,4.471,0,0,1,.071.77Z" transform="translate(-0.001)"/>
+      </g>
+    </g>
+  </g>
+</svg>

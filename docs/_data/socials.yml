@@ -1,0 +1,15 @@
+- name: Instagram
+  link: https://www.instagram.com/jabeywrong/
+  image: ../assets/images/instagram.svg
+
+- name: Steam
+  link: https://steamcommunity.com/id/IDSTGM/
+  image: ../assets/images/steam.svg
+
+- name: GitHub
+  link: https://github.com/InDus7ry/
+  image: ../assets/images/github.svg
+
+- name: Email
+  link: ebag189158@gmail.com
+  image: ../assets/images/email.svg

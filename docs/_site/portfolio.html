@@ -4,7 +4,7 @@
   	<link rel="icon" href="/favicon.png" type="image/x-icon" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width", initial-scale=1.0>
-    <title>{{ page.title }}</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
@@ -19,12 +19,40 @@
               </figcaption>
             </figure>
           <img src="assets/images/Menu.svg" id="menu">
-          {% include navigation.html %}
+          <nav>
+	<ul>
+	  
+	  	<li>
+	    	<a href="/">
+	    	Home
+	    	</a>
+	    </li>
+	  
+	  	<li>
+	    	<a href="/about.html">
+	    	About Me
+	    	</a>
+	    </li>
+	  
+	  	<li>
+	    	<a href="/Portfolio.html">
+	    	Portfolio
+	    	</a>
+	    </li>
+	  
+	  	<li>
+	    	<a href="/Contact.html">
+	    	Contact
+	    	</a>
+	    </li>
+	  
+  	</ul>
+</nav>
           </aside>
 
         <main class="cont">
-            {{content}}
-            <a href="/portfolio.html" class="cta">Portfolio</a>
+            
+
         </main>
 
         <aside class="deskNav">
@@ -33,9 +61,53 @@
                 Gabe Wong
               </figcaption>
             </figure>
-          {%include navigation.html%}
+          <nav>
+	<ul>
+	  
+	  	<li>
+	    	<a href="/">
+	    	Home
+	    	</a>
+	    </li>
+	  
+	  	<li>
+	    	<a href="/about.html">
+	    	About Me
+	    	</a>
+	    </li>
+	  
+	  	<li>
+	    	<a href="/Portfolio.html">
+	    	Portfolio
+	    	</a>
+	    </li>
+	  
+	  	<li>
+	    	<a href="/Contact.html">
+	    	Contact
+	    	</a>
+	    </li>
+	  
+  	</ul>
+</nav>
           <div class="social">
-            {%include socials.html%}
+            
+	<a href="https://www.instagram.com/jabeywrong/">
+		<img src="../assets/images/instagram.svg">
+	</a>
+
+	<a href="https://steamcommunity.com/id/IDSTGM/">
+		<img src="../assets/images/steam.svg">
+	</a>
+
+	<a href="https://github.com/InDus7ry/">
+		<img src="../assets/images/github.svg">
+	</a>
+
+	<a href="ebag189158@gmail.com">
+		<img src="../assets/images/email.svg">
+	</a>
+
           </div>
         </aside>
 
