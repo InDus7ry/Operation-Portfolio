@@ -3,17 +3,58 @@
   <head>
   	<link rel="icon" href="/favicon.png" type="image/x-icon" />
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0>
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-  	<h1 class="navbar">{% include navigation.html %}
-  </h1>
-  	<p>
-    {{ content }}
-    </p>
-    <div class="footer">
-    Copyright © 2018 Gabe Wong.
-    </div>
+          <aside class="tag">
+            Learn to live; live to learn.
+          </aside>
+      
+          <aside class="mobile">
+            <figure>
+              <figcaption>
+                Gabe Wong
+              </figcaption>
+            </figure>
+          <img src="assets/images/Menu.svg" id="menu">
+          {% include navigation.html %}
+          </aside>
+
+        <main class="cont">
+            {{content}}
+            <a href="/portfolio.html" class="cta">Portfolio</a>
+        </main>
+
+        <aside class="deskNav">
+          <figure>
+              <figcaption>
+                Gabe Wong
+              </figcaption>
+            </figure>
+          {%include navigation.html%}
+          <div class="social">
+            {%include socials.html%}
+          </div>
+        </aside>
+
+  	  <div class="footer">
+          Copyright © 2018 Gabe Wong.
+      </div>
+
+    <script>
+        
+            (function() {
+                var menu = document.querySelector('ul'),
+                    menulink = document.querySelector('img');
+                
+                menulink.addEventListener('click', function(e) {
+                    menu.classList.toggle('active');
+                    e.preventDefault();
+                });
+            })();
+        
+    </script>
   </body>
 </html>

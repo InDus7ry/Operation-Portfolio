@@ -1,46 +1,91 @@
-.link {
+.block {
+  display: block;
+  width: 100%;
+  height: 100%; }
+
+body, html {
+  height: 100%;
+  margin: 0px;
+  font-family: MyriadLight; }
+
+body {
+  margin: 1em; }
+
+div {
+  margin: 0px; }
+
+.tag {
+  display: none; }
+
+.deskNav {
+  display: none; }
+
+nav {
+  background: white;
+  margin: 0px; }
+
+aside {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 0px;
+  background: #BFBFBF;
+  box-shadow: 0 -1em 0 2em #BFBFBF; }
+
+img {
+  width: 50px;
+  margin: auto;
+  margin-left: 2em; }
+
+figure {
+  margin: 0px; }
+
+figcaption {
+  margin: 0px;
+  text-align: center;
+  font-size: 3em;
+  font-family: MyriadBold; }
+
+ul {
+  display: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.active {
+  position: absolute;
+  display: block;
+  background: white;
+  width: 50%;
+  left: 0;
+  top: 0;
+  height: 100%; }
+
+ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+  display: block;
+  padding: 1em;
+  background-color: white; }
+
+main {
+  background: white;
+  margin-top: 2.4em; }
+
+.cta {
+  display: block;
   color: white;
+  background: #5A6AFF;
   text-decoration: none;
-  font-size: 30px;
-  padding: 37px;
-  border-right: 1px solid white;
-  border-left: 1px solid white; }
-
-.current {
-  color: #86b5ea;
-  text-decoration: none;
-  font-size: 30px; }
-
-p {
-  font-size: 20px;
-  font-family: Myriad;
-  margin-top: 50px;
-  margin-left: 75px;
-  margin-right: 100px; }
-
-h1 {
-  font-family: Roboto Medium;
-  padding-left: 75px; }
-
-h2 {
-  font-family: Roboto Medium;
-  padding-left: 75px; }
-
-h3 {
-  font-family: Roboto Medium;
-  padding-left: 75px; }
-
-h4 {
-  font-family: Roboto Medium;
-  padding-left: 75px; }
-
-.navbar {
-  text-align: left;
-  background: black;
-  box-shadow: 0 0 0 10px  black; }
+  padding: 10px 10px;
+  font-size: 1.2em;
+  text-align: center;
+  font-family: MyriadBold;
+  border-radius: 4em;
+  margin: 2em 0; }
 
 .footer {
-  font-family: Myriad;
+  font-family: MyriadLight;
   vertical-align: bottom;
   margin-top: 20;
   margin-right: 50;
@@ -51,9 +96,113 @@ h4 {
   background: black;
   padding: 20px; }
 
+.social {
+  display: none; }
+
+@media only screen and (min-width: 600px) {
+  .cta {
+    margin-right: 10em;
+    margin-left: 10em; } }
+@media only screen and (min-width: 1119px) {
+  body {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 4em auto 25vw; }
+
+  h1 {
+    font-family: MyriadBold; }
+
+  img {
+    display: none; }
+
+  aside {
+    background: #BFBFBF;
+    box-shadow: none; }
+
+  main {
+    padding: 2.2em;
+    background: white;
+    margin-top: 0px; }
+
+  .mobile {
+    display: none; }
+
+  .tag {
+    display: block;
+    font-family: MyriadLight;
+    font-size: 2.7em;
+    writing-mode: vertical-rl;
+    box-shadow: none;
+    text-align: center;
+    padding-right: .15em; }
+
+  .footer {
+    display: none; }
+
+  figure {
+    Padding: 2em;
+    font-size: .9em;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.36); }
+
+  nav {
+    background: #BFBFBF; }
+
+  .deskNav {
+    display: block; }
+
+  ul {
+    display: block; }
+
+  ul li a {
+    display: block;
+    background-color: #BFBFBF;
+    text-transform: none;
+    color: black; }
+
+  li {
+    text-align: right;
+    font-size: 1.5em;
+    padding-right: 1.3em;
+    border-bottom: 1px solid black; }
+
+  .social {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 1em; }
+
+  a img {
+    display: block; }
+
+  img {
+    margin: auto;
+    width: 70%;
+    margin-top: 10em; }
+
+  h1 {
+    font-size: 5em;
+    text-align: center;
+    margin-top: 0px; }
+
+  .cta {
+    margin-right: 10em;
+    margin-left: 10em; }
+
+  p {
+    font-size: 2em; }
+
+  h2 {
+    font-size: 3em;
+    font-family: MyriadBold; } }
 @font-face {
   font-family: Roboto Medium;
   src: url(../fonts/Roboto-Medium.ttf); }
 @font-face {
-  font-family: Myriad;
+  font-family: MyriadReg;
   src: url(../fonts/MyriadProRegular.ttf); }
+@font-face {
+  font-family: MyriadLight;
+  src: url(../fonts/myriadpro-light.otf); }
+@font-face {
+  font-family: MyriadBold;
+  src: url(../fonts/myriadpro-bold.otf); }

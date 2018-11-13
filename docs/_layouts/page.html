@@ -4,12 +4,12 @@
   	<link rel="icon" href="/favicon.png" type="image/x-icon" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width", initial-scale=1.0>
-    <title>About</title>
+    <title>{{ page.title }}</title>
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
           <aside class="tag">
-            I think therefore I am.
+            Learn to live; live to learn.
           </aside>
       
           <aside class="mobile">
@@ -19,42 +19,11 @@
               </figcaption>
             </figure>
           <img src="assets/images/Menu.svg" id="menu">
-          <nav>
-	<ul>
-	  
-	  	<li>
-	    	<a href="/">
-	    	Home
-	    	</a>
-	    </li>
-	  
-	  	<li>
-	    	<a href="/about.html">
-	    	About Me
-	    	</a>
-	    </li>
-	  
-	  	<li>
-	    	<a href="/Portfolio.html">
-	    	Portfolio
-	    	</a>
-	    </li>
-	  
-	  	<li>
-	    	<a href="/Contact.html">
-	    	Contact
-	    	</a>
-	    </li>
-	  
-  	</ul>
-</nav>
+          {% include navigation.html %}
           </aside>
 
         <main class="cont">
-            <h1 id="about">About</h1>
-
-<p>Hi, I’m Gabe Wong: a 15 year-old sophmore at Skyline High School.</p>
-
+            {{content}}
         </main>
 
         <aside class="deskNav">
@@ -63,53 +32,9 @@
                 Gabe Wong
               </figcaption>
             </figure>
-          <nav>
-	<ul>
-	  
-	  	<li>
-	    	<a href="/">
-	    	Home
-	    	</a>
-	    </li>
-	  
-	  	<li>
-	    	<a href="/about.html">
-	    	About Me
-	    	</a>
-	    </li>
-	  
-	  	<li>
-	    	<a href="/Portfolio.html">
-	    	Portfolio
-	    	</a>
-	    </li>
-	  
-	  	<li>
-	    	<a href="/Contact.html">
-	    	Contact
-	    	</a>
-	    </li>
-	  
-  	</ul>
-</nav>
+          {%include navigation.html%}
           <div class="social">
-            
-	<a href="https://www.instagram.com/jabeywrong/">
-		<img src="../assets/images/instagram.svg">
-	</a>
-
-	<a href="https://steamcommunity.com/id/IDSTGM/">
-		<img src="../assets/images/steam.svg">
-	</a>
-
-	<a href="https://github.com/InDus7ry/">
-		<img src="../assets/images/github.svg">
-	</a>
-
-	<a href="ebag189158@gmail.com">
-		<img src="../assets/images/email.svg">
-	</a>
-
+            {%include socials.html%}
           </div>
         </aside>
 

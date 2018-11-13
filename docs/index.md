@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Operation Portfolio
+title: Gabe Wong
 ---
 
-# About the Portfolio
+# I Do Things
 
-Gabe Wong's portfolio includes his work from Programming I and Digital Media I.
+Take a look around; see what I can do. Dive into my soul, and understand the beast within.
