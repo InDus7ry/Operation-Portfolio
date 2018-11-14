@@ -119,6 +119,9 @@ main {
 .social{
 	display: none;
 }
+footer {
+	display: none;
+}
 
 @media only screen and (min-width: 600px){
 	.cta {
@@ -172,14 +175,14 @@ main {
 		Padding: 2em;
 		font-size: .9em;
 		text-align: center;
-		background: rgba(255,255,255,.36);
+		background: #D2D2D2;
 	}
 	nav {
 		background: #BFBFBF;
 	}
 	.deskNav {
 		display: block;
-
+		background: black;
 	}
 
 	ul {
@@ -204,6 +207,7 @@ main {
 		display: grid;
 		grid-template-columns: 25% 25% 25% 25%;
 		padding: 1em;
+		background: #BFBFBF;
 	}
 	a img {
 		display: block;
@@ -229,5 +233,16 @@ main {
 		font-size: 3em;
 		font-family: MyriadBold;
 	}
+	footer{
+	display: block;
+	font-family: MyriadLight;
+	vertical-align: bottom;
+	margin-top:20;
+	margin-right: 50;
+	margin-left: 50;
+	text-align: right;
+	color:white;
+	background: black;
+	padding: 20px;
+	}
 }
-

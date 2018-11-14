@@ -99,6 +99,9 @@ main {
 .social {
   display: none; }
 
+footer {
+  display: none; }
+
 @media only screen and (min-width: 600px) {
   .cta {
     margin-right: 10em;
@@ -143,13 +146,14 @@ main {
     Padding: 2em;
     font-size: .9em;
     text-align: center;
-    background: rgba(255, 255, 255, 0.36); }
+    background: #D2D2D2; }
 
   nav {
     background: #BFBFBF; }
 
   .deskNav {
-    display: block; }
+    display: block;
+    background: black; }
 
   ul {
     display: block; }
@@ -169,7 +173,8 @@ main {
   .social {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    padding: 1em; }
+    padding: 1em;
+    background: #BFBFBF; }
 
   a img {
     display: block; }
@@ -193,7 +198,19 @@ main {
 
   h2 {
     font-size: 3em;
-    font-family: MyriadBold; } }
+    font-family: MyriadBold; }
+
+  footer {
+    display: block;
+    font-family: MyriadLight;
+    vertical-align: bottom;
+    margin-top: 20;
+    margin-right: 50;
+    margin-left: 50;
+    text-align: right;
+    color: white;
+    background: black;
+    padding: 20px; } }
 @font-face {
   font-family: Roboto Medium;
   src: url(../fonts/Roboto-Medium.ttf); }
