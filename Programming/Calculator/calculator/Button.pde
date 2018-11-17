@@ -2,8 +2,9 @@ class Button {
   //Member Vars
 
   int x, y, w, h, v;
+  float l;
   String op, ex;
-  boolean mCheck, clicked, asOperator, hasSuperscript;
+  boolean mCheck, clicked, asOperator, hasSuperscript, asConstant;
   color c;
   PFont f;
 
@@ -29,6 +30,12 @@ class Button {
   Button hasSuperscript(String ex) {
     this.ex = ex;
     hasSuperscript = true;
+    return this;
+  }
+
+  Button asConstant(float l) {
+    this.l=l;
+    asConstant=true;
     return this;
   }
 
@@ -64,7 +71,7 @@ class Button {
       fill(c);
       rect(x, y, w, h);
       fill(0);
-      text(v, x, y-10);
+      text(int(v), x, y-10);
       if (hasSuperscript) {
         textAlign(LEFT, CENTER);
         textSize(20);
