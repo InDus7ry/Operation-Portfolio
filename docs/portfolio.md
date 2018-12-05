@@ -5,7 +5,7 @@ title: Portfolio
 
 ## Raster
 
-![] favicon.png
+![] (favicon.png)
 
 ## Vector
 
