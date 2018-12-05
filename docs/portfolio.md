@@ -3,10 +3,10 @@ layout: page
 title: Portfolio
 ---
 
-##Raster
+## Raster
 
-##Vector
+## Vector
 
-##Video
+## Video
 
-##Audio
+## Audio
