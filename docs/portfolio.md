@@ -9,6 +9,12 @@ title: Portfolio
 
 ## Vector
 
+![placeholder](favicon.png)
+
 ## Video
 
+![placeholder](favicon.png)
+
 ## Audio
+
+![placeholder](favicon.png)
