@@ -122,6 +122,9 @@ main {
 footer {
 	display: none;
 }
+button {
+	margin: 0px;
+}
 
 @media only screen and (min-width: 600px){
 	.cta {
@@ -142,7 +145,7 @@ footer {
 	font-family: MyriadBold;
 	}
 
-	img{
+	button{
 		display: none;
 	}
 	
