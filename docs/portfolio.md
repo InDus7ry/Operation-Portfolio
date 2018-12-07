@@ -3,6 +3,8 @@ layout: page
 title: Portfolio
 ---
 
+# Portfolio
+
 ## Raster
 
 ![placeholder](favicon.png)
