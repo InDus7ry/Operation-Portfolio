@@ -18,7 +18,9 @@
                 Gabe Wong
               </figcaption>
             </figure>
-          <img src="assets/images/Menu.svg" id="menu">
+            <button id="menu">
+              <img src="assets/images/Menu.svg">
+            </button>
           {% include navigation.html %}
           </aside>
 
@@ -50,7 +52,7 @@
         
             (function() {
                 var menu = document.querySelector('ul'),
-                    menulink = document.querySelector('img');
+                    menulink = document.querySelector('button');
                 
                 menulink.addEventListener('click', function(e) {
                     menu.classList.toggle('active');
