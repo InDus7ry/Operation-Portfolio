@@ -1,10 +1,5 @@
 ---
 ---
-@import "main";
-@font-face {
-	font-family: Roboto Medium;
-	src: url(../fonts/Roboto-Medium.ttf);
-}
 @font-face{
 	font-family: MyriadReg;
 	src: url(../fonts/MyriadProRegular.ttf);
@@ -17,3 +12,4 @@
 	font-family: MyriadBold;
 	src: url(../fonts/myriadpro-bold.otf);
 }
+@import "main";
