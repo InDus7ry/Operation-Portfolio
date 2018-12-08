@@ -1,251 +1,87 @@
-.block {
-	display: block;
-	width: 100%;
-	height: 100%;
-}
-
-body, html {
-	height: 100%;
+html {
 	margin: 0px;
-	font-family: MyriadLight;
-}
 
+}
 body {
-	margin: 1em;
-}
-
-div {
 	margin: 0px;
+	font: MyriadBold;
 }
-
-.tag{
-	display: none;
+main {
+	width: 960px;
+	margin-top: 0px;
+	margin-right: 480px;
+	margin-left: 480px;
+	background: #A3B7CC;
 }
-
-.deskNav{
-	display: none;
+#topbar {
+	position: -webkit-sticky;
+	position: sticky;
+	background: #7990A7;
+	height: 108px;
+	margin-top: 0px;
+	display: grid;
+	grid: 108px / 480px 960px 480px;
+	top: 0;
+}
+.socials {
+	display: grid;
+	grid-template-columns: 120px 120px 120px 120px;
+	height: inherit;
+}
+.socials a {
+	height: 108px;
+}
+img.soc {
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-top: 29px;
+	margin-bottom: 29px;
+	width: 50px;
 }
 
 nav{
-	background: white;
-	margin: 0px;
+	height: 108px;
+
 }
 
-aside{
-	display: grid;
-	grid-template-columns: auto auto;
-	margin: 0px;
-	background: #BFBFBF;
-	box-shadow: 0 -1em 0 2em #BFBFBF;
+ul{
+	padding: 0px;
+	margin: 36px;
 }
 
-img{
-	width: 50px;
-	margin: auto;
-	margin-left: 2em;
+ul a {
+	margin: 50px;
+	font-size: 31px;
+	font: MyriadBold;
+	text-decoration: none;
+	color: white;
 }
 
 figure {
+	height: 54px;
 	margin: 0px;
-}
-
-figcaption{
-	margin:0px;
-	text-align: center;
-	font-size: 3em;
-	font-family: MyriadBold;
-}
-
-ul {
-    display: none;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.active {
-	position: absolute;
-	display: block;
-	background: white;
-	width: 50%;
-	left: 0;
-	top: 0;
-	height: 100%;
-}
-
-ul li a {
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 1em;
-	display: block;
-	padding: 1em;
-	background-color: rgba(255,255,255, 1)
-}
-
-main {
-	background: white;
-	margin-top: 2.4em;
-}
-
-
-.cta {
-	display: block;
+	padding-top: 27px;
+	padding-bottom: 27px;
+	font-size: 54px;
 	color: white;
-	background: #5A6AFF;
-	text-decoration: none;
-	padding: 10px 10px;
-	font-size: 1.2em;
-	text-align: center;
-	font-family: MyriadBold;
-	border-radius: 4em;
-	margin: 2em 0;
-}
-
-
-
-.footer{
-	font-family: MyriadLight;
-	vertical-align: bottom;
-	margin-top:20;
-	margin-right: 50;
-	margin-left: 50;
 	text-align: right;
-	box-shadow: 0 50vh 0 50vh black;
-	color:white;
-	background: black;
-	padding: 20px;
+	margin-right: 35px;
 }
-
-.social{
-	display: none;
-}
-footer {
-	display: none;
-}
-button {
+h1 {
 	margin: 0px;
+	padding: .67em;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
-@media only screen and (min-width: 600px){
-	.cta {
-		margin-right: 10em;
-		margin-left: 10em;
-	}
+p{
+	margin: 0px;
+	padding: .67em;
+	padding-left: 50px;
+	padding-right: 50px;
 }
-
-@media only screen and (min-width: 1119px){
-	
-	body{
-		margin: 0px;
-		display: grid;
-		grid-template-columns: 4em auto 25vw;
-	}
-
-	h1 {
-	font-family: MyriadBold;
-	}
-
-	button{
-		display: none;
-	}
-	
-	aside {
-		background: #BFBFBF;
-		box-shadow: none;
-	}
-
-	main {
-		padding: 2.2em;
-		background: white;
-		margin-top: 0px;
-	}
-	.mobile {
-		display: none;
-	}
-	.tag{
-		display: block;
-		font-family: MyriadLight;
-		font-size: 2.7em;
-		writing-mode: vertical-rl;
-		box-shadow: none;
-		text-align: center;
-		padding-right: .15em;
-	}
-	.footer {
-		display: none;
-	}
-	figure {
-		Padding: 2em;
-		font-size: .9em;
-		text-align: center;
-		background: #D2D2D2;
-	}
-	nav {
-		background: #BFBFBF;
-	}
-	.deskNav {
-		display: block;
-		background: black;
-	}
-
-	ul {
-		display: block;
-	}
-
-	ul li a {
-		display: block;
-		background-color: #BFBFBF;
-		text-transform: none;
-		color: black;
-
-	}
-
-	li {
-		text-align: right;
-		font-size: 1.5em;
-		padding-right: 1.3em;
-		border-bottom: 1px solid black;
-	}
-	.social {
-		display: grid;
-		grid-template-columns: 25% 25% 25% 25%;
-		padding: 1em;
-		background: #BFBFBF;
-	}
-	a img {
-		display: block;
-	}
-	img {
-		margin: auto;
-		width: 70%;
-		margin-top: 10em;
-	}
-	h1 {
-		font-size: 5em;
-		text-align: center;
-		margin-top: 0px;
-	}
-	.cta {
-		margin-right: 10em;
-		margin-left: 10em;
-	}
-	p {
-		font-size: 2em;
-	}
-	h2 {
-		font-size: 3em;
-		font-family: MyriadBold;
-	}
-	footer{
-	display: block;
-	font-family: MyriadLight;
-	vertical-align: bottom;
-	margin-top:20;
-	margin-right: 50;
-	margin-left: 50;
-	text-align: right;
-	color:white;
-	background: black;
-	padding: 20px;
-	}
+img {
+	width: 600px;
+	margin: auto;
+	padding: 0px;
 }

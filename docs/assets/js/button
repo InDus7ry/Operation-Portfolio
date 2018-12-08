@@ -1,0 +1,12 @@
+var button = document.getElementById("button");
+var content = document.getElementById("mobile");
+
+button onclick = function(){
+	document.write("test");
+	if(content.className == "open")	{
+		content.className = "";
+} else {
+		content.className = "open";
+	}
+
+};

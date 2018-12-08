@@ -8,58 +8,15 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-          <aside class="tag">
-            Learn to live; live to learn.
-          </aside>
-      
-          <aside class="mobile">
-            <figure>
-              <figcaption>
-                Gabe Wong
-              </figcaption>
-            </figure>
-            <button id="menu">
-              <img src="assets/images/Menu.svg">
-            </button>
-          {% include navigation.html %}
-          </aside>
-
-        <main class="cont">
-            {{content}}
-            <a href="/portfolio.html" class="cta">Portfolio</a>
-        </main>
-
-        <aside class="deskNav">
-          <figure>
-              <figcaption>
-                Gabe Wong
-              </figcaption>
-            </figure>
-          {%include navigation.html%}
-          <div class="social">
-            {%include socials.html%}
-          </div>
-          <footer>
-            Copyright © 2018 Gabe Wong.
-          </footer>
-        </aside>
-
-  	  <div class="footer">
-          Copyright © 2018 Gabe Wong.
+    <aside id=topbar>
+      <div class=socials>
+        {% include socials.html%}
       </div>
-
-    <script>
-        
-            (function() {
-                var menu = document.querySelector('ul'),
-                    menulink = document.querySelector('button');
-                
-                menulink.addEventListener('click', function(e) {
-                    menu.classList.toggle('active');
-                    e.preventDefault();
-                });
-            })();
-        
-    </script>
+        {% include navigation.html %}
+      <figure>Gabe Wong</figure>
+    </aside>
+    <main>
+      {{content}}
+    </main>
   </body>
 </html>
