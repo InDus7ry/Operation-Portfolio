@@ -1,8 +1,8 @@
 - name: Home
   link: /Operation-Portfolio/
 - name: About Me
-  link: /Operation-Portfolio/about.html
+  link: /Operation-Portfolio/about
 - name: Portfolio
-  link: /Operation-Portfolio/portfolio.html
+  link: /Operation-Portfolio/portfolio
 - name: Contact
-  link: /Operation-Portfolio/contact.html
+  link: /Operation-Portfolio/contact

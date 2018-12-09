@@ -12,13 +12,13 @@ html {
 
 body {
   margin: 0px;
-  font: MyriadBold; }
+  font-family: MyriadBold; }
 
 main {
-  width: 960px;
+  width: 50vw;
   margin-top: 0px;
-  margin-right: 480px;
-  margin-left: 480px;
+  margin-right: 25vw;
+  margin-left: 25vw;
   background: #A3B7CC; }
 
 #topbar {
@@ -28,22 +28,24 @@ main {
   height: 108px;
   margin-top: 0px;
   display: grid;
-  grid: 108px / 480px 960px 480px;
+  grid: 108px / 25vw 50vw 25vw;
   top: 0; }
 
 .socials {
   display: grid;
-  grid-template-columns: 120px 120px 120px 120px;
-  height: inherit; }
+  height: inherit;
+  grid-template-columns: 6.25vw 6.25vw 6.25vw 6.25vw; }
 
 .socials a {
-  height: 108px; }
+  display: block;
+  height: 50px;
+  margin: auto;
+  margin-top: 29px;
+  margin-bottom: 29px; }
 
 img.soc {
-  margin-right: 35px;
-  margin-left: 35px;
-  margin-top: 29px;
-  margin-bottom: 29px;
+  display: block;
+  margin: auto;
   width: 50px; }
 
 nav {
@@ -51,10 +53,15 @@ nav {
 
 ul {
   padding: 0px;
-  margin: 36px; }
+  margin: 0px;
+  margin-top: 38.5px;
+  margin-bottom: 38.5px;
+  display: grid;
+  grid-template-columns: 12.5vw 12.5vw 12.5vw 12.5vw; }
 
 ul a {
-  margin: 50px;
+  margin-right: auto;
+  margin-left: auto;
   font-size: 31px;
   font: MyriadBold;
   text-decoration: none;
