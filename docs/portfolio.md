@@ -19,4 +19,4 @@ title: Portfolio
 
 ## Audio
 
-![placeholder](favicon.png)
+{% include audio.html%}
