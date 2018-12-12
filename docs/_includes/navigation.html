@@ -3,7 +3,7 @@
 	  {% for item in site.data.navigation %}
 	  	{% assign var = item.link | append: '.html' %}
 	  	{% assign var2 = page.url | prepend: '/Operation-Portfolio'%}
-	    <a href="{{item.link}}" {% if var2 == var %}style="text-decoration: underline;" {% elsif page.url = '/' %}style="text-decoration: underline;" {% endif %}>
+	    <a href="{{item.link}}" {% if var2 == var %}style="text-decoration: underline;" {% elsif page.url == '/' %}style="text-decoration: underline;" {% endif %}>
 	    	{{ item.name }}
 	    </a>
 	  {% endfor %}
