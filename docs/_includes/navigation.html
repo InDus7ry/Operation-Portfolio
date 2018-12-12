@@ -2,6 +2,7 @@
 	<ul>
 	  {% for item in site.data.navigation %}
 	  	{% assign var = item.link | append: '.html' %}
+	  	{% assign var2 = page.url | prepend: '/Operation-Portfolio'%}
 	    <a href="{{item.link}}" {% if page.url == var %}style="text-decoration: underline;" {% endif %}>
 	    	{{ item.name }}
 	    </a>
