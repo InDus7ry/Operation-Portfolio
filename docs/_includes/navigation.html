@@ -1,7 +1,8 @@
 <nav>
 	<ul>
 	  {% for item in site.data.navigation %}
-	    <a href="{{item.link}}" {% if page.url == item.link %}style="text-decoration: underline;" {% endif %}>
+	  	{% assign var = item.link | append: '.html' %}
+	    <a href="{{item.link}}" {% if page.url == var %}style="text-decoration: underline;" {% endif %}>
 	    	{{ item.name }}
 	    </a>
 	  {% endfor %}
