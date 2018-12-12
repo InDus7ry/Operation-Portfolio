@@ -80,10 +80,11 @@ h1 {
 	margin-bottom: .67em;
 	margin-right: 1vw;
 	margin-left: 1vw;
-	text-decoration: underline;
 }
 
 p{
+	font-size: 20px;
+	font-family: MyriadLight;
 	margin: 0px;
 	margin: .67em;
 	margin-right: 1vw;
@@ -119,4 +120,18 @@ footer{
 	background: black;
 	padding: 20px;
 	box-shadow: 0px 100px 0px 100px black;
+}
+
+h3, h4, h5, h6 {
+	font-family: MyriadLight;
+}
+
+h2 {
+	font-family: MyriadReg;
+}
+
+hr {
+	border: 0;
+	background-color: #7990A7;
+	height: .25em;
 }

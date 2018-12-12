@@ -4,23 +4,26 @@ title: Portfolio
 ---
 
 # Portfolio (Work-in-Progress)
+---
 
 ## Raster
-
+---
 
 
 ## Vector
+---
 
-### Profile Picture
+### Profile Picture:
 
 ![Profile Picture](assets/images/Cartoon-800x800.png)
 
-### GW Logo
+### GW Logo:
 
 ![Logo](favicon.png)
 
 ## Video
-
+---
 ## Audio
+---
 
 {% include audio.html%}
