@@ -3,19 +3,23 @@ layout: default
 title: Portfolio
 ---
 
-# Portfolio
+# Portfolio (Work-in-Progress)
 
 ## Raster
 
-![placeholder](favicon.png)
+
 
 ## Vector
 
-![placeholder](favicon.png)
+### Profile Picture
+
+![Profile Picture](assets/images/Cartoon-800x800.png)
+
+### GW Logo
+
+![Logo](favicon.png)
 
 ## Video
-
-![placeholder](favicon.png)
 
 ## Audio
 
