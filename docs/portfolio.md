@@ -11,7 +11,7 @@ title: Portfolio
 
 ### Frames
 
-![Frames](assets/images/Frames.jpg)
+![Frames](assets/images/Frames-960x640.jpg)
 
 ## Vector
 ---
