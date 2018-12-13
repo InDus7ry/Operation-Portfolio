@@ -6,7 +6,7 @@ title: Contact
 
 ## Instagram
 
-[jabeywrong](www.instagram.com/jabeywrong)
+[jabeywrong](https://www.instagram.com/jabeywrong)
 
 ## Email
 
