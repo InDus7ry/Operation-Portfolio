@@ -9,7 +9,7 @@ title: Portfolio
 ## Raster
 ---
 
-### Frames
+### Frames:
 
 ![Frames](assets/images/Frames-960x640.jpg)
 
