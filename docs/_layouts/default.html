@@ -25,6 +25,8 @@
       {% for item in site.data.navigation %}
 	{% unless page.url == '/' %}
 	  {% assign bug = item.link | append: '.html' %}
+	      {% else %}
+	      {% assign bug = item.link %}
 	{% endunless %}
       item.link: {{bug}}
       <br>
