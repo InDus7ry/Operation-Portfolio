@@ -6,9 +6,16 @@ title: Contact
 
 ## Instagram
 
+[jabeywrong](www.instagram.com/jabeywrong)
+
 ## Email
+
+`ebag189158@gmail.com`
 
 ## Github
 
-## Steam
+[InDus7ry](https://github.com/InDus7ry)
 
+## Reddit
+
+[N/A](#)
