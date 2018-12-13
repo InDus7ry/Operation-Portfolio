@@ -22,8 +22,11 @@
         {% assign val = page.url | prepend: '/Operation-Portfolio' %}
       page.url: {{val}}
       <br>
+        {% unless page.url == '/' %}
+	  	{% assign bug = item.link | append: '.html' %}
+		{% endunless %}
       {% for item in site.data.navigation %}
-      item.link: {{item.link}}
+      item.link: {{bug}}
       <br>
 
       {% endfor %}
