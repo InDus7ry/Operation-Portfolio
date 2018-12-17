@@ -13,6 +13,10 @@ title: Portfolio
 
 ![Frames](assets/images/Frames-960x640.jpg)
 
+### Goreange:
+
+![Goreange](assets/images/OrangeGore-800x800.jpg)
+
 ## Vector
 ---
 
@@ -23,6 +27,10 @@ title: Portfolio
 ### GW Logo:
 
 ![Logo](favicon.png)
+
+### Portal 2 Scene:
+
+![Portal](assets/images/Portal2-800x400.png)
 
 ## Video
 ---
