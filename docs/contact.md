@@ -6,6 +6,8 @@ title: Contact
 
 ## Email
 
+{% include form.html %}
+
 ## Instagram
 
 [jabeywrong](https://www.instagram.com/jabeywrong)
