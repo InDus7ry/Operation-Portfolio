@@ -13,10 +13,6 @@ title: Portfolio
 
 ![Frames](assets/images/Frames-960x640.jpg)
 
-### Goreange:
-
-![Goreange](assets/images/OrangeGore-800x800.jpg)
-
 ## Vector
 ---
 
