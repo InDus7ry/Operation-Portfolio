@@ -4,13 +4,13 @@ title: Contact
 ---
 # Contact
 
-## Instagram
-
-[jabeywrong](https://www.instagram.com/jabeywrong)
-
 ## Email
 
 `ebag189158@gmail.com`
+
+## Instagram
+
+[jabeywrong](https://www.instagram.com/jabeywrong)
 
 ## Github
 
