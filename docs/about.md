@@ -4,4 +4,4 @@ title: About
 ---
 # About
 
-Hi, I'm Gabe Wong: a 16 year-old sophmore at Skyline High School.
+I'm Gabe Wong. There's nothing special about me. I explore what I like: Programming, Mathematics, Digital media. I've been involved in my fair share of school-sponsored clubs: TSA, Model UN, and Social Justice Club.
