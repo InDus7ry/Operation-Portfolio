@@ -152,6 +152,7 @@ form input {
 	border-radius: 25px;
 	border: none;
 	padding: 1em;
+	width: inherit;
 }
 form {
 	margin: 1vw;
@@ -172,4 +173,5 @@ textarea {
 	border: none;
 	padding: 1em;
 	resize:none;
+	width:inherit;
 }
