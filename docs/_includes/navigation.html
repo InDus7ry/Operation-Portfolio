@@ -1,5 +1,5 @@
 <nav>
-	<ul id=topbar>
+	<ul id="topbar">
 	  {% for item in site.data.navigation %}
 		{% unless page.url == '/' %}
 	  	{% assign var = item.link | append: '.html' %}
