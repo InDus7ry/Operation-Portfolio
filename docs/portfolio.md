@@ -3,7 +3,7 @@ layout: default
 title: Portfolio
 ---
 
-# Portfolio (Work-in-Progress)
+# Portfolio
 ---
 
 ## Raster
@@ -34,3 +34,7 @@ title: Portfolio
 ---
 
 {% include audio.html%}
+
+# Programming
+## Shape Calculator
+[Shape Calculator](https://github.com/InDus7ry/Operation-Portfolio/tree/master/Programming/ShapeCalculator)
