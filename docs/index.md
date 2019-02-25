@@ -5,4 +5,4 @@ title: Gabe Wong
 
 # Home
 
-![welcome image](assets/images/Welcome.jpg)
+![welcome image](assets/images/Welcome.jpg){: .welcome}
