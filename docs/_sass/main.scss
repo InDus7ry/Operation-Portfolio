@@ -98,6 +98,7 @@ img {
 	padding: 0px;
 	border-color: black;
 	border: solid;
+	max-width: 600px;
 }
 
 h2, h3, h4, h5, h6 {
@@ -191,7 +192,9 @@ textarea {
 	}
 	main {
 		margin: 0px;
-		width: 100vw;
+		margin-right: 5vw;
+		margin-left: 5vw;
+		width: 90vw;
 	}
 	img {
 		width: 80vw;
