@@ -15,7 +15,3 @@ title: Contact
 ## Github
 
 [InDus7ry](https://github.com/InDus7ry)
-
-## Reddit
-
-[N/A](#)
