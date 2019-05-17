@@ -47,6 +47,6 @@ title: Portfolio
 
 ![Processing Calculator](assets/images/calculator_Processing.png)
 ## Space Game
-[Space Game](https://github.com/InDus7ry/Operation-Portfolio/raw/master/Programming/SpaceGame/spaceRace.zip)
+[Space Game](#)
 
-![Space Game](assets/images/)
+![Space Game](#)
