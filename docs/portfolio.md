@@ -3,7 +3,7 @@ layout: default
 title: Portfolio
 ---
 
-# Portfolio
+# Digital Media I
 ---
 
 ## Raster
@@ -37,7 +37,7 @@ title: Portfolio
 ---
 ---
 
-# Programming
+# Programming I
 ## Shape Calculator
 [Shape Calculator](https://github.com/InDus7ry/Operation-Portfolio/raw/master/Programming/ShapeCalculator/ShapeTester.zip)
 ## Question Machine
