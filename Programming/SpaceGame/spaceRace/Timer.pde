@@ -5,6 +5,7 @@ class Timer {
 
   int savedTime; // When Timer started
   int totalTime; // How long Timer should last
+  boolean stop;
 
   Timer(int tempTotalTime) {
     totalTime = tempTotalTime;
@@ -13,6 +14,7 @@ class Timer {
   // Starting the timer
   void start() {
     // When the timer starts it stores the current time in milliseconds.
+    stop=false;
     savedTime = millis();
   }
 
@@ -21,7 +23,7 @@ class Timer {
   boolean isFinished() { 
     // Check how much time has passed
     int passedTime = millis()- savedTime;
-    if (passedTime > totalTime) {
+    if (passedTime > totalTime || stop) {
       return true;
     } else {
       return false;

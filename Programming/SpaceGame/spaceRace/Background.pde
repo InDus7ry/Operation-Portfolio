@@ -2,12 +2,11 @@ class Background {
   //variables
 
   color colour;
-  int star;
+  boolean set;
 
   //constructors
 
-  Background(int star, color colour) {
-    this.star = star;
+  Background( color colour) {
     this.colour = colour;
   }
 
@@ -16,10 +15,10 @@ class Background {
   //Behaviour
   void display() {
     background(colour);
-    for(int i=0; i<star; i++){
-      strokeWeight(5);
+    for (int i=0; i<stars; i++) {
+      strokeWeight(2);
       stroke(255);
-      point(random(width), random(height));
+      point(backgroundx[i], backgroundy[i]);
     }
   }
 }

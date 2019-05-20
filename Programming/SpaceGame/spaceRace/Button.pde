@@ -23,6 +23,10 @@ class Button {
     textAlign(LEFT, BOTTOM);
     textSize(size);
     text(text, x, y);
+    rectMode(CORNERS);
+    //noFill();
+    //stroke(255);
+    //rect(x, y, x+findLength(), y-size);
   }
   void hover() {
     if (mouseX>x && mouseX<x+findLength() && mouseY<y && mouseY >y-size) {
@@ -33,6 +37,8 @@ class Button {
     
     if (mouseX>x && mouseX<x+findLength() && mouseY<y && mouseY >y-size && mousePressed) {
       clicked = true;
+    } else {
+      clicked = false;
     }
   }
 
